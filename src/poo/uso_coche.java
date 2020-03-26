@@ -6,7 +6,7 @@ public class uso_coche {
 
     public static void main (String[] args){
 
-        coche micoche=new coche();
+            coche micoche=new coche();
         micoche.establece_color(JOptionPane.showInputDialog("Introduce color"));
         
         System.out.println(micoche.Dime_datos_generales());
